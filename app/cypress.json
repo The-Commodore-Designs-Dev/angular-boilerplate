@@ -1,0 +1,16 @@
+{
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "test/e2e/cypress/report/mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true
+    },
+    "downloadsFolder": "test/e2e/cypress/downloads",
+    "fixturesFolder": "test/e2e/cypress/fixtures",
+    "integrationFolder": "test/e2e/cypress/integration",
+    "screenshotsFolder": "test/e2e/cypress/screenshots",
+    "videosFolder": "test/e2e/cypress/videos",
+    "pluginsFile": "test/e2e/cypress/plugins/index.js",
+    "supportFile": "test/e2e/cypress/support/index.js"
+}
